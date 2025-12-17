@@ -1,0 +1,5028 @@
+[
+  {
+    "id": 0,
+    "text": "Alex: Hannah Lee, please put gas detector GD-4 into maintenance mode from battery room.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Alex",
+        "type": "PER",
+        "start": 0,
+        "end": 4
+      },
+      {
+        "text": "Hannah Lee",
+        "type": "PER",
+        "start": 6,
+        "end": 16
+      },
+      {
+        "text": "gas detector GD-4",
+        "type": "EQUIP",
+        "start": 29,
+        "end": 46
+      },
+      {
+        "text": "battery room",
+        "type": "LOC",
+        "start": 74,
+        "end": 86
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 1,
+    "text": "Ahmed Saeed: Noah, please close control desk panel DP-2 and confirm pressure stabilizes in outdoor transformer pad.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Ahmed Saeed",
+        "type": "PER",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "Noah",
+        "type": "PER",
+        "start": 13,
+        "end": 17
+      },
+      {
+        "text": "control desk panel DP-2",
+        "type": "EQUIP",
+        "start": 32,
+        "end": 55
+      },
+      {
+        "text": "outdoor transformer pad",
+        "type": "LOC",
+        "start": 91,
+        "end": 114
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 2,
+    "text": "Noah: Quick reminder: PPE check before entering fire pump room.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Noah",
+        "type": "PER",
+        "start": 0,
+        "end": 4
+      },
+      {
+        "text": "fire pump room",
+        "type": "LOC",
+        "start": 48,
+        "end": 62
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 3,
+    "text": "Alex: Marco Rossi, please close boiler feed pump BFP-2 and confirm pressure stabilizes in cooling water intake.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Alex",
+        "type": "PER",
+        "start": 0,
+        "end": 4
+      },
+      {
+        "text": "Marco Rossi",
+        "type": "PER",
+        "start": 6,
+        "end": 17
+      },
+      {
+        "text": "boiler feed pump BFP-2",
+        "type": "EQUIP",
+        "start": 32,
+        "end": 54
+      },
+      {
+        "text": "cooling water intake",
+        "type": "LOC",
+        "start": 90,
+        "end": 110
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 4,
+    "text": "George Miller: The screen on isolation valve IV-14 looks dim today.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "George Miller",
+        "type": "PER",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "isolation valve IV-14",
+        "type": "EQUIP",
+        "start": 29,
+        "end": 50
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 5,
+    "text": "Daniel Park: Trend check done: server node SRV-04 vibration is within limits from chemical storage bay.",
+    "intent": 2,
+    "entities": [
+      {
+        "text": "Daniel Park",
+        "type": "PER",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "server node SRV-04",
+        "type": "EQUIP",
+        "start": 31,
+        "end": 49
+      },
+      {
+        "text": "chemical storage bay",
+        "type": "LOC",
+        "start": 82,
+        "end": 102
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 6,
+    "text": "Eli Turner: Coffee machine is empty in the server room 1B.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Eli Turner",
+        "type": "PER",
+        "start": 0,
+        "end": 10
+      },
+      {
+        "text": "server room 1B",
+        "type": "LOC",
+        "start": 43,
+        "end": 57
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 7,
+    "text": "Emma: We’ve got visitors waiting at the dispatch office.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Emma",
+        "type": "PER",
+        "start": 0,
+        "end": 4
+      },
+      {
+        "text": "dispatch office",
+        "type": "LOC",
+        "start": 40,
+        "end": 55
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 8,
+    "text": "Sofia: Rita Silva, run the self-test on cooling pump P-03 in lube oil room and paste the result here.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Sofia",
+        "type": "PER",
+        "start": 0,
+        "end": 5
+      },
+      {
+        "text": "Rita Silva",
+        "type": "PER",
+        "start": 7,
+        "end": 17
+      },
+      {
+        "text": "cooling pump P-03",
+        "type": "EQUIP",
+        "start": 40,
+        "end": 57
+      },
+      {
+        "text": "lube oil room",
+        "type": "LOC",
+        "start": 61,
+        "end": 74
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 9,
+    "text": "Victor Ivanov: Anyone available for a quick call from the control cable trench?",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Victor Ivanov",
+        "type": "PER",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "control cable trench",
+        "type": "LOC",
+        "start": 58,
+        "end": 78
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 10,
+    "text": "Robert King: Sofia, run a quick check on gas detector GD-4 at control center annex; share a photo of the indicator.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Robert King",
+        "type": "PER",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "Sofia",
+        "type": "PER",
+        "start": 13,
+        "end": 18
+      },
+      {
+        "text": "gas detector GD-4",
+        "type": "EQUIP",
+        "start": 41,
+        "end": 58
+      },
+      {
+        "text": "control center annex",
+        "type": "LOC",
+        "start": 62,
+        "end": 82
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 11,
+    "text": "Noah: Radio check on channel 3 — do you copy?",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Noah",
+        "type": "PER",
+        "start": 0,
+        "end": 4
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 12,
+    "text": "Henry Collins: Calibration finished for ash conveyor ACV-7 in cooling tower basin; values match the reference.",
+    "intent": 2,
+    "entities": [
+      {
+        "text": "Henry Collins",
+        "type": "PER",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "ash conveyor ACV-7",
+        "type": "EQUIP",
+        "start": 40,
+        "end": 58
+      },
+      {
+        "text": "cooling tower basin",
+        "type": "LOC",
+        "start": 62,
+        "end": 81
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 13,
+    "text": "Daniel Park: I swapped the cable on server node SRV-09 in instrumentation corridor; link is up.",
+    "intent": 2,
+    "entities": [
+      {
+        "text": "Daniel Park",
+        "type": "PER",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "server node SRV-09",
+        "type": "EQUIP",
+        "start": 36,
+        "end": 54
+      },
+      {
+        "text": "instrumentation corridor",
+        "type": "LOC",
+        "start": 58,
+        "end": 82
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 14,
+    "text": "Leila Hassan: Zoe Martin, run a quick check on generator G2 exciter at compressor shed; share a photo of the indicator.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Leila Hassan",
+        "type": "PER",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "Zoe Martin",
+        "type": "PER",
+        "start": 14,
+        "end": 24
+      },
+      {
+        "text": "generator G2 exciter",
+        "type": "EQUIP",
+        "start": 47,
+        "end": 67
+      },
+      {
+        "text": "compressor shed",
+        "type": "LOC",
+        "start": 71,
+        "end": 86
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 15,
+    "text": "Daniel Park: Henry Collins, run the self-test on air compressor AC-4 in cooling tower basin and paste the result here.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Daniel Park",
+        "type": "PER",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "Henry Collins",
+        "type": "PER",
+        "start": 13,
+        "end": 26
+      },
+      {
+        "text": "air compressor AC-4",
+        "type": "EQUIP",
+        "start": 49,
+        "end": 68
+      },
+      {
+        "text": "cooling tower basin",
+        "type": "LOC",
+        "start": 72,
+        "end": 91
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 16,
+    "text": "Samir Haddad: Tara Singh, can you escort the contractor to control center annex and keep them within permit limits?",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Samir Haddad",
+        "type": "PER",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "Tara Singh",
+        "type": "PER",
+        "start": 14,
+        "end": 24
+      },
+      {
+        "text": "control center annex",
+        "type": "LOC",
+        "start": 59,
+        "end": 79
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 17,
+    "text": "Sofia: Coffee machine is empty in the auxiliary building corridor 2.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Sofia",
+        "type": "PER",
+        "start": 0,
+        "end": 5
+      },
+      {
+        "text": "auxiliary building corridor 2",
+        "type": "LOC",
+        "start": 38,
+        "end": 67
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 18,
+    "text": "Priya Nair: I’ll be offline for 20 minutes while in the chemistry sampling booth.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Priya Nair",
+        "type": "PER",
+        "start": 0,
+        "end": 10
+      },
+      {
+        "text": "chemistry sampling booth",
+        "type": "LOC",
+        "start": 56,
+        "end": 80
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 19,
+    "text": "Sergey Volkov: Storm warning — avoid the auxiliary building corridor 2 access route if possible.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Sergey Volkov",
+        "type": "PER",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "auxiliary building corridor 2",
+        "type": "LOC",
+        "start": 41,
+        "end": 70
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 20,
+    "text": "Sergey Volkov: I verified the interlock on steam turbine T-1 in warehouse aisle 4; ready to energize.",
+    "intent": 2,
+    "entities": [
+      {
+        "text": "Sergey Volkov",
+        "type": "PER",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "steam turbine T-1",
+        "type": "EQUIP",
+        "start": 43,
+        "end": 60
+      },
+      {
+        "text": "warehouse aisle 4",
+        "type": "LOC",
+        "start": 64,
+        "end": 81
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 21,
+    "text": "Miguel Santos: Reminder: toolbox talk in compressor shed at 09:30.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Miguel Santos",
+        "type": "PER",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "compressor shed",
+        "type": "LOC",
+        "start": 41,
+        "end": 56
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 22,
+    "text": "George Miller: Please log your readings; yesterday’s sheet from operator locker area is missing.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "George Miller",
+        "type": "PER",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "operator locker area",
+        "type": "LOC",
+        "start": 64,
+        "end": 84
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 23,
+    "text": "Samir Haddad: Does anyone know why cooling tower fan F-5 beeped twice and then cleared?",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Samir Haddad",
+        "type": "PER",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "cooling tower fan F-5",
+        "type": "EQUIP",
+        "start": 35,
+        "end": 56
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 24,
+    "text": "Eli Turner: Olivia can you reboot steam turbine T-1 in cooling tower basin and watch for alarms?",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Eli Turner",
+        "type": "PER",
+        "start": 0,
+        "end": 10
+      },
+      {
+        "text": "Olivia",
+        "type": "PER",
+        "start": 12,
+        "end": 18
+      },
+      {
+        "text": "steam turbine T-1",
+        "type": "EQUIP",
+        "start": 34,
+        "end": 51
+      },
+      {
+        "text": "cooling tower basin",
+        "type": "LOC",
+        "start": 55,
+        "end": 74
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 25,
+    "text": "Ahmed Saeed: Please log your readings; yesterday’s sheet from parking lot north is missing.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Ahmed Saeed",
+        "type": "PER",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "parking lot north",
+        "type": "LOC",
+        "start": 62,
+        "end": 79
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 26,
+    "text": "Henry Collins: Anyone available for a quick call from the break room?",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Henry Collins",
+        "type": "PER",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "break room",
+        "type": "LOC",
+        "start": 58,
+        "end": 68
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 27,
+    "text": "Pavel Morozov: Ahmed Saeed, please isolate cooling pump P-03 in panel room 3 and confirm when it’s safe.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Pavel Morozov",
+        "type": "PER",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "Ahmed Saeed",
+        "type": "PER",
+        "start": 15,
+        "end": 26
+      },
+      {
+        "text": "cooling pump P-03",
+        "type": "EQUIP",
+        "start": 43,
+        "end": 60
+      },
+      {
+        "text": "panel room 3",
+        "type": "LOC",
+        "start": 64,
+        "end": 76
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 28,
+    "text": "Eli Turner: Calibration finished for server node SRV-04 in substation 110kV yard; values match the reference.",
+    "intent": 2,
+    "entities": [
+      {
+        "text": "Eli Turner",
+        "type": "PER",
+        "start": 0,
+        "end": 10
+      },
+      {
+        "text": "server node SRV-04",
+        "type": "EQUIP",
+        "start": 37,
+        "end": 55
+      },
+      {
+        "text": "substation 110kV yard",
+        "type": "LOC",
+        "start": 59,
+        "end": 80
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 29,
+    "text": "Daniel Park: I left a flashlight in main control room; if you find it, let me know.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Daniel Park",
+        "type": "PER",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "main control room",
+        "type": "LOC",
+        "start": 36,
+        "end": 53
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 30,
+    "text": "Kate Brooks: Calibration finished for cooling tower fan F-5 in MCC room; values match the reference.",
+    "intent": 2,
+    "entities": [
+      {
+        "text": "Kate Brooks",
+        "type": "PER",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "cooling tower fan F-5",
+        "type": "EQUIP",
+        "start": 38,
+        "end": 59
+      },
+      {
+        "text": "MCC room",
+        "type": "LOC",
+        "start": 63,
+        "end": 71
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 31,
+    "text": "Emma: Any word on the permit for work near cooling tower basin?",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Emma",
+        "type": "PER",
+        "start": 0,
+        "end": 4
+      },
+      {
+        "text": "cooling tower basin",
+        "type": "LOC",
+        "start": 43,
+        "end": 62
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 32,
+    "text": "Marco Rossi: Isabella Costa, move the spare parts for generator G2 exciter to compressor shed before noon.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Marco Rossi",
+        "type": "PER",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "Isabella Costa",
+        "type": "PER",
+        "start": 13,
+        "end": 27
+      },
+      {
+        "text": "generator G2 exciter",
+        "type": "EQUIP",
+        "start": 54,
+        "end": 74
+      },
+      {
+        "text": "compressor shed",
+        "type": "LOC",
+        "start": 78,
+        "end": 93
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 33,
+    "text": "Tom Bennett: Update: I isolated remote I/O rack RIO-7 in gatehouse; locks and tags are on.",
+    "intent": 2,
+    "entities": [
+      {
+        "text": "Tom Bennett",
+        "type": "PER",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "remote I/O rack RIO-7",
+        "type": "EQUIP",
+        "start": 32,
+        "end": 53
+      },
+      {
+        "text": "gatehouse",
+        "type": "LOC",
+        "start": 57,
+        "end": 66
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 34,
+    "text": "Olivia: Nina Petrova, please label fire damper FD-6 and update the logbook in Unit 2 switchgear room.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Olivia",
+        "type": "PER",
+        "start": 0,
+        "end": 6
+      },
+      {
+        "text": "Nina Petrova",
+        "type": "PER",
+        "start": 8,
+        "end": 20
+      },
+      {
+        "text": "fire damper FD-6",
+        "type": "EQUIP",
+        "start": 35,
+        "end": 51
+      },
+      {
+        "text": "Unit 2 switchgear room",
+        "type": "LOC",
+        "start": 78,
+        "end": 100
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 35,
+    "text": "Aisha Rahman: Heads-up: north cooling tower platform will be busy for the vendor walkthrough at 14:00.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Aisha Rahman",
+        "type": "PER",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "north cooling tower platform",
+        "type": "LOC",
+        "start": 24,
+        "end": 52
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 36,
+    "text": "Liam: Tara Singh, please close cooling pump P-08 and confirm pressure stabilizes in battery room.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Liam",
+        "type": "PER",
+        "start": 0,
+        "end": 4
+      },
+      {
+        "text": "Tara Singh",
+        "type": "PER",
+        "start": 6,
+        "end": 16
+      },
+      {
+        "text": "cooling pump P-08",
+        "type": "EQUIP",
+        "start": 31,
+        "end": 48
+      },
+      {
+        "text": "battery room",
+        "type": "LOC",
+        "start": 84,
+        "end": 96
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 37,
+    "text": "Pavel Morozov: Omar Al-Mansouri, can you tighten the terminal screws on boiler feed pump BFP-1 in parking lot north (power off first)?",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Pavel Morozov",
+        "type": "PER",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "Omar Al-Mansouri",
+        "type": "PER",
+        "start": 15,
+        "end": 31
+      },
+      {
+        "text": "boiler feed pump BFP-1",
+        "type": "EQUIP",
+        "start": 72,
+        "end": 94
+      },
+      {
+        "text": "parking lot north",
+        "type": "LOC",
+        "start": 98,
+        "end": 115
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 38,
+    "text": "Priya Nair: Eli Turner, please close flow sensor FS-18 and confirm pressure stabilizes in chemistry sampling booth.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Priya Nair",
+        "type": "PER",
+        "start": 0,
+        "end": 10
+      },
+      {
+        "text": "Eli Turner",
+        "type": "PER",
+        "start": 12,
+        "end": 22
+      },
+      {
+        "text": "flow sensor FS-18",
+        "type": "EQUIP",
+        "start": 37,
+        "end": 54
+      },
+      {
+        "text": "chemistry sampling booth",
+        "type": "LOC",
+        "start": 90,
+        "end": 114
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 39,
+    "text": "Irene Petrou: We’ve got visitors waiting at the IT closet 2A.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Irene Petrou",
+        "type": "PER",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "IT closet 2A",
+        "type": "LOC",
+        "start": 48,
+        "end": 60
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 40,
+    "text": "David Stone: fire damper FD-6 is back online in fire pump room — readings look normal.",
+    "intent": 2,
+    "entities": [
+      {
+        "text": "David Stone",
+        "type": "PER",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "fire damper FD-6",
+        "type": "EQUIP",
+        "start": 13,
+        "end": 29
+      },
+      {
+        "text": "fire pump room",
+        "type": "LOC",
+        "start": 48,
+        "end": 62
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 41,
+    "text": "Alex: I’ll be offline for 20 minutes while in the SCADA server cabinet row C.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Alex",
+        "type": "PER",
+        "start": 0,
+        "end": 4
+      },
+      {
+        "text": "SCADA server cabinet row C",
+        "type": "LOC",
+        "start": 50,
+        "end": 76
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 42,
+    "text": "Samir Haddad: Good morning everyone.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Samir Haddad",
+        "type": "PER",
+        "start": 0,
+        "end": 12
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 43,
+    "text": "Julia Hart: Can someone confirm the shift handover notes are posted?",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Julia Hart",
+        "type": "PER",
+        "start": 0,
+        "end": 10
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 44,
+    "text": "Sofia: Coffee machine is empty in the Unit 3 pump bay.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Sofia",
+        "type": "PER",
+        "start": 0,
+        "end": 5
+      },
+      {
+        "text": "Unit 3 pump bay",
+        "type": "LOC",
+        "start": 38,
+        "end": 53
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 45,
+    "text": "Grace Chen: Priya Nair, please bring a calibrated meter to battery room and check boiler feed pump BFP-2.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Grace Chen",
+        "type": "PER",
+        "start": 0,
+        "end": 10
+      },
+      {
+        "text": "Priya Nair",
+        "type": "PER",
+        "start": 12,
+        "end": 22
+      },
+      {
+        "text": "battery room",
+        "type": "LOC",
+        "start": 59,
+        "end": 71
+      },
+      {
+        "text": "boiler feed pump BFP-2",
+        "type": "EQUIP",
+        "start": 82,
+        "end": 104
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 46,
+    "text": "Aisha Rahman: Chen Wei, open a ticket for fire damper FD-6 and meet me in security checkpoint.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Aisha Rahman",
+        "type": "PER",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "Chen Wei",
+        "type": "PER",
+        "start": 14,
+        "end": 22
+      },
+      {
+        "text": "fire damper FD-6",
+        "type": "EQUIP",
+        "start": 42,
+        "end": 58
+      },
+      {
+        "text": "security checkpoint",
+        "type": "LOC",
+        "start": 74,
+        "end": 93
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 47,
+    "text": "Marco Rossi: PLC cabinet C4 is back online in diesel day-tank area — readings look normal.",
+    "intent": 2,
+    "entities": [
+      {
+        "text": "Marco Rossi",
+        "type": "PER",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "PLC cabinet C4",
+        "type": "EQUIP",
+        "start": 13,
+        "end": 27
+      },
+      {
+        "text": "diesel day-tank area",
+        "type": "LOC",
+        "start": 46,
+        "end": 66
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 48,
+    "text": "Yuki Tanaka: Maria Ortega, please swap the cable on relay panel RP-9 in panel room 3; the connector is loose.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Yuki Tanaka",
+        "type": "PER",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "Maria Ortega",
+        "type": "PER",
+        "start": 13,
+        "end": 25
+      },
+      {
+        "text": "relay panel RP-9",
+        "type": "EQUIP",
+        "start": 52,
+        "end": 68
+      },
+      {
+        "text": "panel room 3",
+        "type": "LOC",
+        "start": 72,
+        "end": 84
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 49,
+    "text": "Sergey Volkov: Mia, please verify the tag number on lubrication skid LS-2 in stack monitoring shelter.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Sergey Volkov",
+        "type": "PER",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "Mia",
+        "type": "PER",
+        "start": 15,
+        "end": 18
+      },
+      {
+        "text": "lubrication skid LS-2",
+        "type": "EQUIP",
+        "start": 52,
+        "end": 73
+      },
+      {
+        "text": "stack monitoring shelter",
+        "type": "LOC",
+        "start": 77,
+        "end": 101
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 50,
+    "text": "Emma: Radio check on channel 3 — do you copy?",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Emma",
+        "type": "PER",
+        "start": 0,
+        "end": 4
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 51,
+    "text": "Rita Silva: I left a flashlight in battery room; if you find it, let me know.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Rita Silva",
+        "type": "PER",
+        "start": 0,
+        "end": 10
+      },
+      {
+        "text": "battery room",
+        "type": "LOC",
+        "start": 35,
+        "end": 47
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 52,
+    "text": "Grace Chen: Hannah Lee, run the self-test on UPS rack 2 in IT closet 2A and paste the result here.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Grace Chen",
+        "type": "PER",
+        "start": 0,
+        "end": 10
+      },
+      {
+        "text": "Hannah Lee",
+        "type": "PER",
+        "start": 12,
+        "end": 22
+      },
+      {
+        "text": "UPS rack 2",
+        "type": "EQUIP",
+        "start": 45,
+        "end": 55
+      },
+      {
+        "text": "IT closet 2A",
+        "type": "LOC",
+        "start": 59,
+        "end": 71
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 53,
+    "text": "Pavel Morozov: relay panel RP-9 is back online in raw water pump station — readings look normal.",
+    "intent": 2,
+    "entities": [
+      {
+        "text": "Pavel Morozov",
+        "type": "PER",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "relay panel RP-9",
+        "type": "EQUIP",
+        "start": 15,
+        "end": 31
+      },
+      {
+        "text": "raw water pump station",
+        "type": "LOC",
+        "start": 50,
+        "end": 72
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 54,
+    "text": "John: Completed the inspection of fire damper FD-6 at boiler house level -1; no leaks found.",
+    "intent": 2,
+    "entities": [
+      {
+        "text": "John",
+        "type": "PER",
+        "start": 0,
+        "end": 4
+      },
+      {
+        "text": "fire damper FD-6",
+        "type": "EQUIP",
+        "start": 34,
+        "end": 50
+      },
+      {
+        "text": "boiler house level -1",
+        "type": "LOC",
+        "start": 54,
+        "end": 75
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 55,
+    "text": "Chen Wei: Fatima Khan, please clean the dust filters on relay panel RP-9 in boiler house level -1.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Chen Wei",
+        "type": "PER",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "text": "Fatima Khan",
+        "type": "PER",
+        "start": 10,
+        "end": 21
+      },
+      {
+        "text": "relay panel RP-9",
+        "type": "EQUIP",
+        "start": 56,
+        "end": 72
+      },
+      {
+        "text": "boiler house level -1",
+        "type": "LOC",
+        "start": 76,
+        "end": 97
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 56,
+    "text": "Henry Collins: The screen on ash conveyor ACV-7 looks dim today.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Henry Collins",
+        "type": "PER",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "ash conveyor ACV-7",
+        "type": "EQUIP",
+        "start": 29,
+        "end": 47
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 57,
+    "text": "Leila Hassan: Reminder: toolbox talk in diesel day-tank area at 09:30.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Leila Hassan",
+        "type": "PER",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "diesel day-tank area",
+        "type": "LOC",
+        "start": 40,
+        "end": 60
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 58,
+    "text": "Ava: Victor Ivanov, please clean the dust filters on pressure transmitter PT-22 in Unit 2 switchgear room.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Ava",
+        "type": "PER",
+        "start": 0,
+        "end": 3
+      },
+      {
+        "text": "Victor Ivanov",
+        "type": "PER",
+        "start": 5,
+        "end": 18
+      },
+      {
+        "text": "pressure transmitter PT-22",
+        "type": "EQUIP",
+        "start": 53,
+        "end": 79
+      },
+      {
+        "text": "Unit 2 switchgear room",
+        "type": "LOC",
+        "start": 83,
+        "end": 105
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 59,
+    "text": "Rita Silva: Miguel Santos can you reboot network switch SW-12 in Unit 2 switchgear room and watch for alarms?",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Rita Silva",
+        "type": "PER",
+        "start": 0,
+        "end": 10
+      },
+      {
+        "text": "Miguel Santos",
+        "type": "PER",
+        "start": 12,
+        "end": 25
+      },
+      {
+        "text": "network switch SW-12",
+        "type": "EQUIP",
+        "start": 41,
+        "end": 61
+      },
+      {
+        "text": "Unit 2 switchgear room",
+        "type": "LOC",
+        "start": 65,
+        "end": 87
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 60,
+    "text": "Chen Wei: Network feels slow; boiler feed pump BFP-1 is lagging on my side.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Chen Wei",
+        "type": "PER",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "text": "boiler feed pump BFP-1",
+        "type": "EQUIP",
+        "start": 30,
+        "end": 52
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 61,
+    "text": "Anna Novak: Heads-up: ash handling tunnel will be busy for the vendor walkthrough at 14:00.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Anna Novak",
+        "type": "PER",
+        "start": 0,
+        "end": 10
+      },
+      {
+        "text": "ash handling tunnel",
+        "type": "LOC",
+        "start": 22,
+        "end": 41
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 62,
+    "text": "Liam: Radio check on channel 3 — do you copy?",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Liam",
+        "type": "PER",
+        "start": 0,
+        "end": 4
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 63,
+    "text": "Aisha Rahman: George Miller, inspect remote I/O rack RIO-7 at turbine hall A for leaks and report back.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Aisha Rahman",
+        "type": "PER",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "George Miller",
+        "type": "PER",
+        "start": 14,
+        "end": 27
+      },
+      {
+        "text": "remote I/O rack RIO-7",
+        "type": "EQUIP",
+        "start": 37,
+        "end": 58
+      },
+      {
+        "text": "turbine hall A",
+        "type": "LOC",
+        "start": 62,
+        "end": 76
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 64,
+    "text": "Arjun Mehta: Aisha Rahman, open a ticket for boiler feed pump BFP-1 and meet me in gatehouse.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Arjun Mehta",
+        "type": "PER",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "Aisha Rahman",
+        "type": "PER",
+        "start": 13,
+        "end": 25
+      },
+      {
+        "text": "boiler feed pump BFP-1",
+        "type": "EQUIP",
+        "start": 45,
+        "end": 67
+      },
+      {
+        "text": "gatehouse",
+        "type": "LOC",
+        "start": 83,
+        "end": 92
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 65,
+    "text": "Priya Nair: Ticket logged for fire damper FD-6; details recorded at warehouse aisle 4.",
+    "intent": 2,
+    "entities": [
+      {
+        "text": "Priya Nair",
+        "type": "PER",
+        "start": 0,
+        "end": 10
+      },
+      {
+        "text": "fire damper FD-6",
+        "type": "EQUIP",
+        "start": 30,
+        "end": 46
+      },
+      {
+        "text": "warehouse aisle 4",
+        "type": "LOC",
+        "start": 68,
+        "end": 85
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 66,
+    "text": "Irene Petrou: Any word on the permit for work near break room?",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Irene Petrou",
+        "type": "PER",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "break room",
+        "type": "LOC",
+        "start": 51,
+        "end": 61
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 67,
+    "text": "Eli Turner: Heads-up: main control room will be busy for the vendor walkthrough at 14:00.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Eli Turner",
+        "type": "PER",
+        "start": 0,
+        "end": 10
+      },
+      {
+        "text": "main control room",
+        "type": "LOC",
+        "start": 22,
+        "end": 39
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 68,
+    "text": "Aisha Rahman: Liam, please verify the tag number on boiler feed pump BFP-2 in instrumentation corridor.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Aisha Rahman",
+        "type": "PER",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "Liam",
+        "type": "PER",
+        "start": 14,
+        "end": 18
+      },
+      {
+        "text": "boiler feed pump BFP-2",
+        "type": "EQUIP",
+        "start": 52,
+        "end": 74
+      },
+      {
+        "text": "instrumentation corridor",
+        "type": "LOC",
+        "start": 78,
+        "end": 102
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 69,
+    "text": "Ethan: Liam, please label fire damper FD-6 and update the logbook in control cable trench.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Ethan",
+        "type": "PER",
+        "start": 0,
+        "end": 5
+      },
+      {
+        "text": "Liam",
+        "type": "PER",
+        "start": 7,
+        "end": 11
+      },
+      {
+        "text": "fire damper FD-6",
+        "type": "EQUIP",
+        "start": 26,
+        "end": 42
+      },
+      {
+        "text": "control cable trench",
+        "type": "LOC",
+        "start": 69,
+        "end": 89
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 70,
+    "text": "David Stone: Reminder: toolbox talk in chemistry sampling booth at 09:30.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "David Stone",
+        "type": "PER",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "chemistry sampling booth",
+        "type": "LOC",
+        "start": 39,
+        "end": 63
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 71,
+    "text": "Sergey Volkov: Network feels slow; isolation valve IV-14 is lagging on my side.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Sergey Volkov",
+        "type": "PER",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "isolation valve IV-14",
+        "type": "EQUIP",
+        "start": 35,
+        "end": 56
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 72,
+    "text": "Pavel Morozov: Irene Petrou, check the vibration trend for PLC cabinet C4 from the battery room workstation.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Pavel Morozov",
+        "type": "PER",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "Irene Petrou",
+        "type": "PER",
+        "start": 15,
+        "end": 27
+      },
+      {
+        "text": "PLC cabinet C4",
+        "type": "EQUIP",
+        "start": 59,
+        "end": 73
+      },
+      {
+        "text": "battery room",
+        "type": "LOC",
+        "start": 83,
+        "end": 95
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 73,
+    "text": "Emma: Reminder: toolbox talk in water treatment lab at 09:30.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Emma",
+        "type": "PER",
+        "start": 0,
+        "end": 4
+      },
+      {
+        "text": "water treatment lab",
+        "type": "LOC",
+        "start": 32,
+        "end": 51
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 74,
+    "text": "Zoe Martin: Quick reminder: PPE check before entering chemistry sampling booth.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Zoe Martin",
+        "type": "PER",
+        "start": 0,
+        "end": 10
+      },
+      {
+        "text": "chemistry sampling booth",
+        "type": "LOC",
+        "start": 54,
+        "end": 78
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 75,
+    "text": "Ahmed Saeed: The screen on cooling tower fan F-5 looks dim today.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Ahmed Saeed",
+        "type": "PER",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "cooling tower fan F-5",
+        "type": "EQUIP",
+        "start": 27,
+        "end": 48
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 76,
+    "text": "Mia: Julia Hart, run a quick check on water treatment skid WT-5 at chemical storage bay; share a photo of the indicator.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Mia",
+        "type": "PER",
+        "start": 0,
+        "end": 3
+      },
+      {
+        "text": "Julia Hart",
+        "type": "PER",
+        "start": 5,
+        "end": 15
+      },
+      {
+        "text": "water treatment skid WT-5",
+        "type": "EQUIP",
+        "start": 38,
+        "end": 63
+      },
+      {
+        "text": "chemical storage bay",
+        "type": "LOC",
+        "start": 67,
+        "end": 87
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 77,
+    "text": "Sara Ahmed: Does anyone know why battery bank BB-1 beeped twice and then cleared?",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Sara Ahmed",
+        "type": "PER",
+        "start": 0,
+        "end": 10
+      },
+      {
+        "text": "battery bank BB-1",
+        "type": "EQUIP",
+        "start": 33,
+        "end": 50
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 78,
+    "text": "John: Liam, please verify the tag number on steam turbine T-1 in compressor shed.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "John",
+        "type": "PER",
+        "start": 0,
+        "end": 4
+      },
+      {
+        "text": "Liam",
+        "type": "PER",
+        "start": 6,
+        "end": 10
+      },
+      {
+        "text": "steam turbine T-1",
+        "type": "EQUIP",
+        "start": 44,
+        "end": 61
+      },
+      {
+        "text": "compressor shed",
+        "type": "LOC",
+        "start": 65,
+        "end": 80
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 79,
+    "text": "Isabella Costa: I’ll be offline for 20 minutes while in the SCADA server cabinet row C.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Isabella Costa",
+        "type": "PER",
+        "start": 0,
+        "end": 14
+      },
+      {
+        "text": "SCADA server cabinet row C",
+        "type": "LOC",
+        "start": 60,
+        "end": 86
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 80,
+    "text": "Ethan: Can someone confirm the shift handover notes are posted?",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Ethan",
+        "type": "PER",
+        "start": 0,
+        "end": 5
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 81,
+    "text": "Sofia: We’ve got visitors waiting at the instrumentation corridor.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Sofia",
+        "type": "PER",
+        "start": 0,
+        "end": 5
+      },
+      {
+        "text": "instrumentation corridor",
+        "type": "LOC",
+        "start": 41,
+        "end": 65
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 82,
+    "text": "Irene Petrou: Lucas Meyer, please verify the tag number on steam drum level transmitter SDLT-1 in cooling water intake.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Irene Petrou",
+        "type": "PER",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "Lucas Meyer",
+        "type": "PER",
+        "start": 14,
+        "end": 25
+      },
+      {
+        "text": "steam drum level transmitter SDLT-1",
+        "type": "EQUIP",
+        "start": 59,
+        "end": 94
+      },
+      {
+        "text": "cooling water intake",
+        "type": "LOC",
+        "start": 98,
+        "end": 118
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 83,
+    "text": "Miguel Santos: I replaced the fuse on fire damper FD-6 in boiler house level -1; status is green now.",
+    "intent": 2,
+    "entities": [
+      {
+        "text": "Miguel Santos",
+        "type": "PER",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "fire damper FD-6",
+        "type": "EQUIP",
+        "start": 38,
+        "end": 54
+      },
+      {
+        "text": "boiler house level -1",
+        "type": "LOC",
+        "start": 58,
+        "end": 79
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 84,
+    "text": "Elena Krasnova: Trend check done: feedwater valve FV-03 vibration is within limits from ash handling tunnel.",
+    "intent": 2,
+    "entities": [
+      {
+        "text": "Elena Krasnova",
+        "type": "PER",
+        "start": 0,
+        "end": 14
+      },
+      {
+        "text": "feedwater valve FV-03",
+        "type": "EQUIP",
+        "start": 34,
+        "end": 55
+      },
+      {
+        "text": "ash handling tunnel",
+        "type": "LOC",
+        "start": 88,
+        "end": 107
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 85,
+    "text": "Sara Ahmed: Irene Petrou, please swap the cable on fire damper FD-6 in chemical storage bay; the connector is loose.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Sara Ahmed",
+        "type": "PER",
+        "start": 0,
+        "end": 10
+      },
+      {
+        "text": "Irene Petrou",
+        "type": "PER",
+        "start": 12,
+        "end": 24
+      },
+      {
+        "text": "fire damper FD-6",
+        "type": "EQUIP",
+        "start": 51,
+        "end": 67
+      },
+      {
+        "text": "chemical storage bay",
+        "type": "LOC",
+        "start": 71,
+        "end": 91
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 86,
+    "text": "Leila Hassan: I’m heading to lube oil room now; reception is spotty there.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Leila Hassan",
+        "type": "PER",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "lube oil room",
+        "type": "LOC",
+        "start": 29,
+        "end": 42
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 87,
+    "text": "Chen Wei: I tightened the terminals on flow sensor FS-18 in break room; no more flicker.",
+    "intent": 2,
+    "entities": [
+      {
+        "text": "Chen Wei",
+        "type": "PER",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "text": "flow sensor FS-18",
+        "type": "EQUIP",
+        "start": 39,
+        "end": 56
+      },
+      {
+        "text": "break room",
+        "type": "LOC",
+        "start": 60,
+        "end": 70
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 88,
+    "text": "Samir Haddad: Radio check on channel 3 — do you copy?",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Samir Haddad",
+        "type": "PER",
+        "start": 0,
+        "end": 12
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 89,
+    "text": "Marco Rossi: The noise near server node SRV-04 is louder than yesterday.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Marco Rossi",
+        "type": "PER",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "server node SRV-04",
+        "type": "EQUIP",
+        "start": 28,
+        "end": 46
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 90,
+    "text": "Liam: The screen on server node SRV-09 looks dim today.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Liam",
+        "type": "PER",
+        "start": 0,
+        "end": 4
+      },
+      {
+        "text": "server node SRV-09",
+        "type": "EQUIP",
+        "start": 20,
+        "end": 38
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 91,
+    "text": "Fatima Khan: Sara Ahmed, please close feedwater valve FV-03 and confirm pressure stabilizes in substation 110kV yard.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Fatima Khan",
+        "type": "PER",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "Sara Ahmed",
+        "type": "PER",
+        "start": 13,
+        "end": 23
+      },
+      {
+        "text": "feedwater valve FV-03",
+        "type": "EQUIP",
+        "start": 38,
+        "end": 59
+      },
+      {
+        "text": "substation 110kV yard",
+        "type": "LOC",
+        "start": 95,
+        "end": 116
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 92,
+    "text": "Omar Al-Mansouri: Done: self-test passed on control desk panel DP-2 in warehouse aisle 4.",
+    "intent": 2,
+    "entities": [
+      {
+        "text": "Omar Al-Mansouri",
+        "type": "PER",
+        "start": 0,
+        "end": 16
+      },
+      {
+        "text": "control desk panel DP-2",
+        "type": "EQUIP",
+        "start": 44,
+        "end": 67
+      },
+      {
+        "text": "warehouse aisle 4",
+        "type": "LOC",
+        "start": 71,
+        "end": 88
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 93,
+    "text": "Zoe Martin: Please log your readings; yesterday’s sheet from dispatch office is missing.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Zoe Martin",
+        "type": "PER",
+        "start": 0,
+        "end": 10
+      },
+      {
+        "text": "dispatch office",
+        "type": "LOC",
+        "start": 61,
+        "end": 76
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 94,
+    "text": "James Walker: Zoe Martin, please swap the cable on cooling tower fan F-5 in substation 110kV yard; the connector is loose.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "James Walker",
+        "type": "PER",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "Zoe Martin",
+        "type": "PER",
+        "start": 14,
+        "end": 24
+      },
+      {
+        "text": "cooling tower fan F-5",
+        "type": "EQUIP",
+        "start": 51,
+        "end": 72
+      },
+      {
+        "text": "substation 110kV yard",
+        "type": "LOC",
+        "start": 76,
+        "end": 97
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 95,
+    "text": "Aisha Rahman: Quick reminder: PPE check before entering warehouse aisle 4.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Aisha Rahman",
+        "type": "PER",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "warehouse aisle 4",
+        "type": "LOC",
+        "start": 56,
+        "end": 73
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 96,
+    "text": "Yuki Tanaka: Good morning everyone.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Yuki Tanaka",
+        "type": "PER",
+        "start": 0,
+        "end": 11
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 97,
+    "text": "Rita Silva: Isabella Costa, please clean the dust filters on water treatment skid WT-5 in Unit 3 pump bay.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Rita Silva",
+        "type": "PER",
+        "start": 0,
+        "end": 10
+      },
+      {
+        "text": "Isabella Costa",
+        "type": "PER",
+        "start": 12,
+        "end": 26
+      },
+      {
+        "text": "water treatment skid WT-5",
+        "type": "EQUIP",
+        "start": 61,
+        "end": 86
+      },
+      {
+        "text": "Unit 3 pump bay",
+        "type": "LOC",
+        "start": 90,
+        "end": 105
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 98,
+    "text": "Sara Ahmed: Logbook updated in diesel day-tank area for network switch SW-12.",
+    "intent": 2,
+    "entities": [
+      {
+        "text": "Sara Ahmed",
+        "type": "PER",
+        "start": 0,
+        "end": 10
+      },
+      {
+        "text": "diesel day-tank area",
+        "type": "LOC",
+        "start": 31,
+        "end": 51
+      },
+      {
+        "text": "network switch SW-12",
+        "type": "EQUIP",
+        "start": 56,
+        "end": 76
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 99,
+    "text": "Kate Brooks: I escorted the contractor to Unit 4 stairwell; permit signed and photos attached.",
+    "intent": 2,
+    "entities": [
+      {
+        "text": "Kate Brooks",
+        "type": "PER",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "Unit 4 stairwell",
+        "type": "LOC",
+        "start": 42,
+        "end": 58
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 100,
+    "text": "Arjun Mehta: Coffee machine is empty in the auxiliary building corridor 2.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Arjun Mehta",
+        "type": "PER",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "auxiliary building corridor 2",
+        "type": "LOC",
+        "start": 44,
+        "end": 73
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 101,
+    "text": "Pavel Morozov: Marco Rossi, move the spare parts for emergency diesel DG-1 to diesel day-tank area before noon.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Pavel Morozov",
+        "type": "PER",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "Marco Rossi",
+        "type": "PER",
+        "start": 15,
+        "end": 26
+      },
+      {
+        "text": "emergency diesel DG-1",
+        "type": "EQUIP",
+        "start": 53,
+        "end": 74
+      },
+      {
+        "text": "diesel day-tank area",
+        "type": "LOC",
+        "start": 78,
+        "end": 98
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 102,
+    "text": "Ahmed Saeed: Done: self-test passed on temperature probe TP-33 in condenser deck.",
+    "intent": 2,
+    "entities": [
+      {
+        "text": "Ahmed Saeed",
+        "type": "PER",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "temperature probe TP-33",
+        "type": "EQUIP",
+        "start": 39,
+        "end": 62
+      },
+      {
+        "text": "condenser deck",
+        "type": "LOC",
+        "start": 66,
+        "end": 80
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 103,
+    "text": "John: Victor Ivanov, check the vibration trend for pressure transmitter PT-22 from the outdoor transformer pad workstation.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "John",
+        "type": "PER",
+        "start": 0,
+        "end": 4
+      },
+      {
+        "text": "Victor Ivanov",
+        "type": "PER",
+        "start": 6,
+        "end": 19
+      },
+      {
+        "text": "pressure transmitter PT-22",
+        "type": "EQUIP",
+        "start": 51,
+        "end": 77
+      },
+      {
+        "text": "outdoor transformer pad",
+        "type": "LOC",
+        "start": 87,
+        "end": 110
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 104,
+    "text": "Zoe Martin: Ticket logged for ash conveyor ACV-7; details recorded at IT closet 2A.",
+    "intent": 2,
+    "entities": [
+      {
+        "text": "Zoe Martin",
+        "type": "PER",
+        "start": 0,
+        "end": 10
+      },
+      {
+        "text": "ash conveyor ACV-7",
+        "type": "EQUIP",
+        "start": 30,
+        "end": 48
+      },
+      {
+        "text": "IT closet 2A",
+        "type": "LOC",
+        "start": 70,
+        "end": 82
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 105,
+    "text": "Priya Nair: Chen Wei, schedule a quick reset of generator G2 exciter in diesel day-tank area after the load drop.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Priya Nair",
+        "type": "PER",
+        "start": 0,
+        "end": 10
+      },
+      {
+        "text": "Chen Wei",
+        "type": "PER",
+        "start": 12,
+        "end": 20
+      },
+      {
+        "text": "generator G2 exciter",
+        "type": "EQUIP",
+        "start": 48,
+        "end": 68
+      },
+      {
+        "text": "diesel day-tank area",
+        "type": "LOC",
+        "start": 72,
+        "end": 92
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 106,
+    "text": "Anna Novak: Anyone available for a quick call from the training room?",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Anna Novak",
+        "type": "PER",
+        "start": 0,
+        "end": 10
+      },
+      {
+        "text": "training room",
+        "type": "LOC",
+        "start": 55,
+        "end": 68
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 107,
+    "text": "Eli Turner: Radio check on channel 3 — do you copy?",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Eli Turner",
+        "type": "PER",
+        "start": 0,
+        "end": 10
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 108,
+    "text": "Samir Haddad: Ava, please clean the dust filters on feedwater valve FV-03 in turbine hall A.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Samir Haddad",
+        "type": "PER",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "Ava",
+        "type": "PER",
+        "start": 14,
+        "end": 17
+      },
+      {
+        "text": "feedwater valve FV-03",
+        "type": "EQUIP",
+        "start": 52,
+        "end": 73
+      },
+      {
+        "text": "turbine hall A",
+        "type": "LOC",
+        "start": 77,
+        "end": 91
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 109,
+    "text": "Chen Wei: Anyone available for a quick call from the control center annex?",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Chen Wei",
+        "type": "PER",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "text": "control center annex",
+        "type": "LOC",
+        "start": 53,
+        "end": 73
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 110,
+    "text": "Arjun Mehta: I’ll be offline for 20 minutes while in the maintenance workshop.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Arjun Mehta",
+        "type": "PER",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "maintenance workshop",
+        "type": "LOC",
+        "start": 57,
+        "end": 77
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 111,
+    "text": "Henry Collins: Fatima Khan, please bring a calibrated meter to water treatment lab and check fire damper FD-6.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Henry Collins",
+        "type": "PER",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "Fatima Khan",
+        "type": "PER",
+        "start": 15,
+        "end": 26
+      },
+      {
+        "text": "water treatment lab",
+        "type": "LOC",
+        "start": 63,
+        "end": 82
+      },
+      {
+        "text": "fire damper FD-6",
+        "type": "EQUIP",
+        "start": 93,
+        "end": 109
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 112,
+    "text": "John: Tara Singh, please verify the tag number on water treatment skid WT-5 in fire pump room.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "John",
+        "type": "PER",
+        "start": 0,
+        "end": 4
+      },
+      {
+        "text": "Tara Singh",
+        "type": "PER",
+        "start": 6,
+        "end": 16
+      },
+      {
+        "text": "water treatment skid WT-5",
+        "type": "EQUIP",
+        "start": 50,
+        "end": 75
+      },
+      {
+        "text": "fire pump room",
+        "type": "LOC",
+        "start": 79,
+        "end": 93
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 113,
+    "text": "Leila Hassan: Network feels slow; ash conveyor ACV-7 is lagging on my side.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Leila Hassan",
+        "type": "PER",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "ash conveyor ACV-7",
+        "type": "EQUIP",
+        "start": 34,
+        "end": 52
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 114,
+    "text": "Hannah Lee: I’m heading to break room now; reception is spotty there.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Hannah Lee",
+        "type": "PER",
+        "start": 0,
+        "end": 10
+      },
+      {
+        "text": "break room",
+        "type": "LOC",
+        "start": 27,
+        "end": 37
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 115,
+    "text": "Maria Ortega: Network feels slow; steam drum level transmitter SDLT-1 is lagging on my side.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Maria Ortega",
+        "type": "PER",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "steam drum level transmitter SDLT-1",
+        "type": "EQUIP",
+        "start": 34,
+        "end": 69
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 116,
+    "text": "Eli Turner: Mason Reed, run the self-test on cooling tower fan F-5 in outdoor transformer pad and paste the result here.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Eli Turner",
+        "type": "PER",
+        "start": 0,
+        "end": 10
+      },
+      {
+        "text": "Mason Reed",
+        "type": "PER",
+        "start": 12,
+        "end": 22
+      },
+      {
+        "text": "cooling tower fan F-5",
+        "type": "EQUIP",
+        "start": 45,
+        "end": 66
+      },
+      {
+        "text": "outdoor transformer pad",
+        "type": "LOC",
+        "start": 70,
+        "end": 93
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 117,
+    "text": "Pavel Morozov: I verified the interlock on generator G2 exciter in cabling rackway above MCC; ready to energize.",
+    "intent": 2,
+    "entities": [
+      {
+        "text": "Pavel Morozov",
+        "type": "PER",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "generator G2 exciter",
+        "type": "EQUIP",
+        "start": 43,
+        "end": 63
+      },
+      {
+        "text": "cabling rackway above MCC",
+        "type": "LOC",
+        "start": 67,
+        "end": 92
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 118,
+    "text": "David Stone: Calibration finished for fire damper FD-6 in cooling tower basin; values match the reference.",
+    "intent": 2,
+    "entities": [
+      {
+        "text": "David Stone",
+        "type": "PER",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "fire damper FD-6",
+        "type": "EQUIP",
+        "start": 38,
+        "end": 54
+      },
+      {
+        "text": "cooling tower basin",
+        "type": "LOC",
+        "start": 58,
+        "end": 77
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 119,
+    "text": "Tara Singh: Network feels slow; HV switchgear cubicle SG-3 is lagging on my side.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Tara Singh",
+        "type": "PER",
+        "start": 0,
+        "end": 10
+      },
+      {
+        "text": "HV switchgear cubicle SG-3",
+        "type": "EQUIP",
+        "start": 32,
+        "end": 58
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 120,
+    "text": "Grace Chen: Liam, run the self-test on aux heater AH-2 in roof access ladder 3 and paste the result here.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Grace Chen",
+        "type": "PER",
+        "start": 0,
+        "end": 10
+      },
+      {
+        "text": "Liam",
+        "type": "PER",
+        "start": 12,
+        "end": 16
+      },
+      {
+        "text": "aux heater AH-2",
+        "type": "EQUIP",
+        "start": 39,
+        "end": 54
+      },
+      {
+        "text": "roof access ladder 3",
+        "type": "LOC",
+        "start": 58,
+        "end": 78
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 121,
+    "text": "James Walker: Reminder: toolbox talk in north cooling tower platform at 09:30.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "James Walker",
+        "type": "PER",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "north cooling tower platform",
+        "type": "LOC",
+        "start": 40,
+        "end": 68
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 122,
+    "text": "Samir Haddad: The noise near steam turbine T-1 is louder than yesterday.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Samir Haddad",
+        "type": "PER",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "steam turbine T-1",
+        "type": "EQUIP",
+        "start": 29,
+        "end": 46
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 123,
+    "text": "Liam: Arjun Mehta, please swap the cable on server node SRV-04 in compressor shed; the connector is loose.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Liam",
+        "type": "PER",
+        "start": 0,
+        "end": 4
+      },
+      {
+        "text": "Arjun Mehta",
+        "type": "PER",
+        "start": 6,
+        "end": 17
+      },
+      {
+        "text": "server node SRV-04",
+        "type": "EQUIP",
+        "start": 44,
+        "end": 62
+      },
+      {
+        "text": "compressor shed",
+        "type": "LOC",
+        "start": 66,
+        "end": 81
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 124,
+    "text": "Mia: Arjun Mehta, please clean the dust filters on condenser valve CV-21 in control center annex.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Mia",
+        "type": "PER",
+        "start": 0,
+        "end": 3
+      },
+      {
+        "text": "Arjun Mehta",
+        "type": "PER",
+        "start": 5,
+        "end": 16
+      },
+      {
+        "text": "condenser valve CV-21",
+        "type": "EQUIP",
+        "start": 51,
+        "end": 72
+      },
+      {
+        "text": "control center annex",
+        "type": "LOC",
+        "start": 76,
+        "end": 96
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 125,
+    "text": "Leila Hassan: Eli Turner, please isolate temperature probe TP-33 in lube oil room and confirm when it’s safe.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Leila Hassan",
+        "type": "PER",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "Eli Turner",
+        "type": "PER",
+        "start": 14,
+        "end": 24
+      },
+      {
+        "text": "temperature probe TP-33",
+        "type": "EQUIP",
+        "start": 41,
+        "end": 64
+      },
+      {
+        "text": "lube oil room",
+        "type": "LOC",
+        "start": 68,
+        "end": 81
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 126,
+    "text": "Lucas Meyer: Eli Turner, check the vibration trend for condenser valve CV-21 from the cooling water intake workstation.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Lucas Meyer",
+        "type": "PER",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "Eli Turner",
+        "type": "PER",
+        "start": 13,
+        "end": 23
+      },
+      {
+        "text": "condenser valve CV-21",
+        "type": "EQUIP",
+        "start": 55,
+        "end": 76
+      },
+      {
+        "text": "cooling water intake",
+        "type": "LOC",
+        "start": 86,
+        "end": 106
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 127,
+    "text": "Miguel Santos: Zoe Martin, please close gas detector GD-4 and confirm pressure stabilizes in Unit 1 mezzanine.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Miguel Santos",
+        "type": "PER",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "Zoe Martin",
+        "type": "PER",
+        "start": 15,
+        "end": 25
+      },
+      {
+        "text": "gas detector GD-4",
+        "type": "EQUIP",
+        "start": 40,
+        "end": 57
+      },
+      {
+        "text": "Unit 1 mezzanine",
+        "type": "LOC",
+        "start": 93,
+        "end": 109
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 128,
+    "text": "Yuki Tanaka: Storm warning — avoid the turbine hall B access route if possible.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Yuki Tanaka",
+        "type": "PER",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "turbine hall B",
+        "type": "LOC",
+        "start": 39,
+        "end": 53
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 129,
+    "text": "Irene Petrou: The noise near generator G2 exciter is louder than yesterday.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Irene Petrou",
+        "type": "PER",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "generator G2 exciter",
+        "type": "EQUIP",
+        "start": 29,
+        "end": 49
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 130,
+    "text": "Ethan: Logbook updated in turbine hall B for boiler feed pump BFP-2.",
+    "intent": 2,
+    "entities": [
+      {
+        "text": "Ethan",
+        "type": "PER",
+        "start": 0,
+        "end": 5
+      },
+      {
+        "text": "turbine hall B",
+        "type": "LOC",
+        "start": 26,
+        "end": 40
+      },
+      {
+        "text": "boiler feed pump BFP-2",
+        "type": "EQUIP",
+        "start": 45,
+        "end": 67
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 131,
+    "text": "George Miller: Photo uploaded: tag number confirmed on feedwater valve FV-03 in north cooling tower platform.",
+    "intent": 2,
+    "entities": [
+      {
+        "text": "George Miller",
+        "type": "PER",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "feedwater valve FV-03",
+        "type": "EQUIP",
+        "start": 55,
+        "end": 76
+      },
+      {
+        "text": "north cooling tower platform",
+        "type": "LOC",
+        "start": 80,
+        "end": 108
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 132,
+    "text": "Ethan: Elena Krasnova, run the self-test on relay panel RP-9 in warehouse aisle 4 and paste the result here.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Ethan",
+        "type": "PER",
+        "start": 0,
+        "end": 5
+      },
+      {
+        "text": "Elena Krasnova",
+        "type": "PER",
+        "start": 7,
+        "end": 21
+      },
+      {
+        "text": "relay panel RP-9",
+        "type": "EQUIP",
+        "start": 44,
+        "end": 60
+      },
+      {
+        "text": "warehouse aisle 4",
+        "type": "LOC",
+        "start": 64,
+        "end": 81
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 133,
+    "text": "Priya Nair: I left a flashlight in gatehouse; if you find it, let me know.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Priya Nair",
+        "type": "PER",
+        "start": 0,
+        "end": 10
+      },
+      {
+        "text": "gatehouse",
+        "type": "LOC",
+        "start": 35,
+        "end": 44
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 134,
+    "text": "Henry Collins: The screen on emergency diesel DG-1 looks dim today.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Henry Collins",
+        "type": "PER",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "emergency diesel DG-1",
+        "type": "EQUIP",
+        "start": 29,
+        "end": 50
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 135,
+    "text": "Noah: Storm warning — avoid the turbine hall B access route if possible.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Noah",
+        "type": "PER",
+        "start": 0,
+        "end": 4
+      },
+      {
+        "text": "turbine hall B",
+        "type": "LOC",
+        "start": 32,
+        "end": 46
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 136,
+    "text": "Mia: Samir Haddad, please label UPS rack 2 and update the logbook in control center annex.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Mia",
+        "type": "PER",
+        "start": 0,
+        "end": 3
+      },
+      {
+        "text": "Samir Haddad",
+        "type": "PER",
+        "start": 5,
+        "end": 17
+      },
+      {
+        "text": "UPS rack 2",
+        "type": "EQUIP",
+        "start": 32,
+        "end": 42
+      },
+      {
+        "text": "control center annex",
+        "type": "LOC",
+        "start": 69,
+        "end": 89
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 137,
+    "text": "Sofia: Update: I isolated fire damper FD-6 in maintenance workshop; locks and tags are on.",
+    "intent": 2,
+    "entities": [
+      {
+        "text": "Sofia",
+        "type": "PER",
+        "start": 0,
+        "end": 5
+      },
+      {
+        "text": "fire damper FD-6",
+        "type": "EQUIP",
+        "start": 26,
+        "end": 42
+      },
+      {
+        "text": "maintenance workshop",
+        "type": "LOC",
+        "start": 46,
+        "end": 66
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 138,
+    "text": "Mason Reed: I replaced the fuse on fire damper FD-6 in battery room; status is green now.",
+    "intent": 2,
+    "entities": [
+      {
+        "text": "Mason Reed",
+        "type": "PER",
+        "start": 0,
+        "end": 10
+      },
+      {
+        "text": "fire damper FD-6",
+        "type": "EQUIP",
+        "start": 35,
+        "end": 51
+      },
+      {
+        "text": "battery room",
+        "type": "LOC",
+        "start": 55,
+        "end": 67
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 139,
+    "text": "Olivia: Priya Nair, open a ticket for ash conveyor ACV-7 and meet me in safety station.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Olivia",
+        "type": "PER",
+        "start": 0,
+        "end": 6
+      },
+      {
+        "text": "Priya Nair",
+        "type": "PER",
+        "start": 8,
+        "end": 18
+      },
+      {
+        "text": "ash conveyor ACV-7",
+        "type": "EQUIP",
+        "start": 38,
+        "end": 56
+      },
+      {
+        "text": "safety station",
+        "type": "LOC",
+        "start": 72,
+        "end": 86
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 140,
+    "text": "Isabella Costa: FYI, the door to parking lot north is sticking again.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Isabella Costa",
+        "type": "PER",
+        "start": 0,
+        "end": 14
+      },
+      {
+        "text": "parking lot north",
+        "type": "LOC",
+        "start": 33,
+        "end": 50
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 141,
+    "text": "Miguel Santos: Tara Singh, please verify the tag number on generator G2 exciter in condenser deck.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Miguel Santos",
+        "type": "PER",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "Tara Singh",
+        "type": "PER",
+        "start": 15,
+        "end": 25
+      },
+      {
+        "text": "generator G2 exciter",
+        "type": "EQUIP",
+        "start": 59,
+        "end": 79
+      },
+      {
+        "text": "condenser deck",
+        "type": "LOC",
+        "start": 83,
+        "end": 97
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 142,
+    "text": "Alex: Any word on the permit for work near work permit desk?",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Alex",
+        "type": "PER",
+        "start": 0,
+        "end": 4
+      },
+      {
+        "text": "work permit desk",
+        "type": "LOC",
+        "start": 43,
+        "end": 59
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 143,
+    "text": "Henry Collins: Robert King, verify the interlock on flow sensor FS-18 in Unit 3 pump bay before we energize.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Henry Collins",
+        "type": "PER",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "Robert King",
+        "type": "PER",
+        "start": 15,
+        "end": 26
+      },
+      {
+        "text": "flow sensor FS-18",
+        "type": "EQUIP",
+        "start": 52,
+        "end": 69
+      },
+      {
+        "text": "Unit 3 pump bay",
+        "type": "LOC",
+        "start": 73,
+        "end": 88
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 144,
+    "text": "Julia Hart: Emma, inspect vibration monitor VM-6 at panel room 3 for leaks and report back.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Julia Hart",
+        "type": "PER",
+        "start": 0,
+        "end": 10
+      },
+      {
+        "text": "Emma",
+        "type": "PER",
+        "start": 12,
+        "end": 16
+      },
+      {
+        "text": "vibration monitor VM-6",
+        "type": "EQUIP",
+        "start": 26,
+        "end": 48
+      },
+      {
+        "text": "panel room 3",
+        "type": "LOC",
+        "start": 52,
+        "end": 64
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 145,
+    "text": "Olivia: Sofia, open a ticket for server node SRV-09 and meet me in compressor shed.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Olivia",
+        "type": "PER",
+        "start": 0,
+        "end": 6
+      },
+      {
+        "text": "Sofia",
+        "type": "PER",
+        "start": 8,
+        "end": 13
+      },
+      {
+        "text": "server node SRV-09",
+        "type": "EQUIP",
+        "start": 33,
+        "end": 51
+      },
+      {
+        "text": "compressor shed",
+        "type": "LOC",
+        "start": 67,
+        "end": 82
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 146,
+    "text": "Isabella Costa: Anna Novak, run a quick check on server node SRV-04 at main control room; share a photo of the indicator.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Isabella Costa",
+        "type": "PER",
+        "start": 0,
+        "end": 14
+      },
+      {
+        "text": "Anna Novak",
+        "type": "PER",
+        "start": 16,
+        "end": 26
+      },
+      {
+        "text": "server node SRV-04",
+        "type": "EQUIP",
+        "start": 49,
+        "end": 67
+      },
+      {
+        "text": "main control room",
+        "type": "LOC",
+        "start": 71,
+        "end": 88
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 147,
+    "text": "Khalid Farooq: water treatment skid WT-5 is back online in control cable trench — readings look normal.",
+    "intent": 2,
+    "entities": [
+      {
+        "text": "Khalid Farooq",
+        "type": "PER",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "water treatment skid WT-5",
+        "type": "EQUIP",
+        "start": 15,
+        "end": 40
+      },
+      {
+        "text": "control cable trench",
+        "type": "LOC",
+        "start": 59,
+        "end": 79
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 148,
+    "text": "Maria Ortega: Yuki Tanaka, move the spare parts for transformer TR-11 tap changer to stack monitoring shelter before noon.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Maria Ortega",
+        "type": "PER",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "Yuki Tanaka",
+        "type": "PER",
+        "start": 14,
+        "end": 25
+      },
+      {
+        "text": "transformer TR-11 tap changer",
+        "type": "EQUIP",
+        "start": 52,
+        "end": 81
+      },
+      {
+        "text": "stack monitoring shelter",
+        "type": "LOC",
+        "start": 85,
+        "end": 109
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 149,
+    "text": "Sergey Volkov: Mason Reed, please put boiler feed pump BFP-2 into maintenance mode from control center annex.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Sergey Volkov",
+        "type": "PER",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "Mason Reed",
+        "type": "PER",
+        "start": 15,
+        "end": 25
+      },
+      {
+        "text": "boiler feed pump BFP-2",
+        "type": "EQUIP",
+        "start": 38,
+        "end": 60
+      },
+      {
+        "text": "control center annex",
+        "type": "LOC",
+        "start": 88,
+        "end": 108
+      }
+    ],
+    "set": "train"
+  },
+  {
+    "id": 150,
+    "text": "Yuki Tanaka: Grace Chen, open a ticket for network switch SW-12 and meet me in roof access ladder 3.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Yuki Tanaka",
+        "type": "PER",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "Grace Chen",
+        "type": "PER",
+        "start": 13,
+        "end": 23
+      },
+      {
+        "text": "network switch SW-12",
+        "type": "EQUIP",
+        "start": 43,
+        "end": 63
+      },
+      {
+        "text": "roof access ladder 3",
+        "type": "LOC",
+        "start": 79,
+        "end": 99
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 151,
+    "text": "Noah: Calibration finished for chemical dosing pump CDP-2 in roof access ladder 3; values match the reference.",
+    "intent": 2,
+    "entities": [
+      {
+        "text": "Noah",
+        "type": "PER",
+        "start": 0,
+        "end": 4
+      },
+      {
+        "text": "chemical dosing pump CDP-2",
+        "type": "EQUIP",
+        "start": 31,
+        "end": 57
+      },
+      {
+        "text": "roof access ladder 3",
+        "type": "LOC",
+        "start": 61,
+        "end": 81
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 152,
+    "text": "Aisha Rahman: Logbook updated in training room for condenser valve CV-21.",
+    "intent": 2,
+    "entities": [
+      {
+        "text": "Aisha Rahman",
+        "type": "PER",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "training room",
+        "type": "LOC",
+        "start": 33,
+        "end": 46
+      },
+      {
+        "text": "condenser valve CV-21",
+        "type": "EQUIP",
+        "start": 51,
+        "end": 72
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 153,
+    "text": "James Walker: FYI, the door to Unit 1 mezzanine is sticking again.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "James Walker",
+        "type": "PER",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "Unit 1 mezzanine",
+        "type": "LOC",
+        "start": 31,
+        "end": 47
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 154,
+    "text": "Omar Al-Mansouri: Coffee machine is empty in the chemical storage bay.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Omar Al-Mansouri",
+        "type": "PER",
+        "start": 0,
+        "end": 16
+      },
+      {
+        "text": "chemical storage bay",
+        "type": "LOC",
+        "start": 49,
+        "end": 69
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 155,
+    "text": "Leila Hassan: Calibration finished for steam drum level transmitter SDLT-1 in main control room; values match the reference.",
+    "intent": 2,
+    "entities": [
+      {
+        "text": "Leila Hassan",
+        "type": "PER",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "steam drum level transmitter SDLT-1",
+        "type": "EQUIP",
+        "start": 39,
+        "end": 74
+      },
+      {
+        "text": "main control room",
+        "type": "LOC",
+        "start": 78,
+        "end": 95
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 156,
+    "text": "Marco Rossi: Hannah Lee, run a quick check on emergency diesel DG-1 at Unit 1 mezzanine; share a photo of the indicator.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Marco Rossi",
+        "type": "PER",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "Hannah Lee",
+        "type": "PER",
+        "start": 13,
+        "end": 23
+      },
+      {
+        "text": "emergency diesel DG-1",
+        "type": "EQUIP",
+        "start": 46,
+        "end": 67
+      },
+      {
+        "text": "Unit 1 mezzanine",
+        "type": "LOC",
+        "start": 71,
+        "end": 87
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 157,
+    "text": "Hannah Lee: Sergey Volkov, please bring a calibrated meter to IT closet 2A and check HV switchgear cubicle SG-3.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Hannah Lee",
+        "type": "PER",
+        "start": 0,
+        "end": 10
+      },
+      {
+        "text": "Sergey Volkov",
+        "type": "PER",
+        "start": 12,
+        "end": 25
+      },
+      {
+        "text": "IT closet 2A",
+        "type": "LOC",
+        "start": 62,
+        "end": 74
+      },
+      {
+        "text": "HV switchgear cubicle SG-3",
+        "type": "EQUIP",
+        "start": 85,
+        "end": 111
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 158,
+    "text": "Noah: I escorted the contractor to fire pump room; permit signed and photos attached.",
+    "intent": 2,
+    "entities": [
+      {
+        "text": "Noah",
+        "type": "PER",
+        "start": 0,
+        "end": 4
+      },
+      {
+        "text": "fire pump room",
+        "type": "LOC",
+        "start": 35,
+        "end": 49
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 159,
+    "text": "Hannah Lee: Irene Petrou, check the vibration trend for control desk panel DP-2 from the control cable trench workstation.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Hannah Lee",
+        "type": "PER",
+        "start": 0,
+        "end": 10
+      },
+      {
+        "text": "Irene Petrou",
+        "type": "PER",
+        "start": 12,
+        "end": 24
+      },
+      {
+        "text": "control desk panel DP-2",
+        "type": "EQUIP",
+        "start": 56,
+        "end": 79
+      },
+      {
+        "text": "control cable trench",
+        "type": "LOC",
+        "start": 89,
+        "end": 109
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 160,
+    "text": "Tom Bennett: Yuki Tanaka, please label steam drum level transmitter SDLT-1 and update the logbook in training room.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Tom Bennett",
+        "type": "PER",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "Yuki Tanaka",
+        "type": "PER",
+        "start": 13,
+        "end": 24
+      },
+      {
+        "text": "steam drum level transmitter SDLT-1",
+        "type": "EQUIP",
+        "start": 39,
+        "end": 74
+      },
+      {
+        "text": "training room",
+        "type": "LOC",
+        "start": 101,
+        "end": 114
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 161,
+    "text": "Maria Ortega: The screen on vibration monitor VM-6 looks dim today.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Maria Ortega",
+        "type": "PER",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "vibration monitor VM-6",
+        "type": "EQUIP",
+        "start": 28,
+        "end": 50
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 162,
+    "text": "Olivia: Quick reminder: PPE check before entering gatehouse.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Olivia",
+        "type": "PER",
+        "start": 0,
+        "end": 6
+      },
+      {
+        "text": "gatehouse",
+        "type": "LOC",
+        "start": 50,
+        "end": 59
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 163,
+    "text": "Rita Silva: FYI, the door to maintenance workshop is sticking again.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Rita Silva",
+        "type": "PER",
+        "start": 0,
+        "end": 10
+      },
+      {
+        "text": "maintenance workshop",
+        "type": "LOC",
+        "start": 29,
+        "end": 49
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 164,
+    "text": "Chen Wei: The screen on control desk panel DP-2 looks dim today.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Chen Wei",
+        "type": "PER",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "text": "control desk panel DP-2",
+        "type": "EQUIP",
+        "start": 24,
+        "end": 47
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 165,
+    "text": "Tom Bennett: Logbook updated in server room 1B for aux heater AH-2.",
+    "intent": 2,
+    "entities": [
+      {
+        "text": "Tom Bennett",
+        "type": "PER",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "server room 1B",
+        "type": "LOC",
+        "start": 32,
+        "end": 46
+      },
+      {
+        "text": "aux heater AH-2",
+        "type": "EQUIP",
+        "start": 51,
+        "end": 66
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 166,
+    "text": "Victor Ivanov: I tightened the terminals on KVM monitor KVM-1 in ash handling tunnel; no more flicker.",
+    "intent": 2,
+    "entities": [
+      {
+        "text": "Victor Ivanov",
+        "type": "PER",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "KVM monitor KVM-1",
+        "type": "EQUIP",
+        "start": 44,
+        "end": 61
+      },
+      {
+        "text": "ash handling tunnel",
+        "type": "LOC",
+        "start": 65,
+        "end": 84
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 167,
+    "text": "Robert King: Reminder: toolbox talk in battery room at 09:30.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Robert King",
+        "type": "PER",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "battery room",
+        "type": "LOC",
+        "start": 39,
+        "end": 51
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 168,
+    "text": "Mia: Reminder: toolbox talk in generator pit at 09:30.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Mia",
+        "type": "PER",
+        "start": 0,
+        "end": 3
+      },
+      {
+        "text": "generator pit",
+        "type": "LOC",
+        "start": 31,
+        "end": 44
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 169,
+    "text": "Ethan: Emma, please bring a calibrated meter to work permit desk and check isolation valve IV-14.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Ethan",
+        "type": "PER",
+        "start": 0,
+        "end": 5
+      },
+      {
+        "text": "Emma",
+        "type": "PER",
+        "start": 7,
+        "end": 11
+      },
+      {
+        "text": "work permit desk",
+        "type": "LOC",
+        "start": 48,
+        "end": 64
+      },
+      {
+        "text": "isolation valve IV-14",
+        "type": "EQUIP",
+        "start": 75,
+        "end": 96
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 170,
+    "text": "Chen Wei: I left a flashlight in training room; if you find it, let me know.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Chen Wei",
+        "type": "PER",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "text": "training room",
+        "type": "LOC",
+        "start": 33,
+        "end": 46
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 171,
+    "text": "Mia: The screen on instrument air dryer IAD-1 looks dim today.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Mia",
+        "type": "PER",
+        "start": 0,
+        "end": 3
+      },
+      {
+        "text": "instrument air dryer IAD-1",
+        "type": "EQUIP",
+        "start": 19,
+        "end": 45
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 172,
+    "text": "Liam: The noise near HV switchgear cubicle SG-3 is louder than yesterday.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Liam",
+        "type": "PER",
+        "start": 0,
+        "end": 4
+      },
+      {
+        "text": "HV switchgear cubicle SG-3",
+        "type": "EQUIP",
+        "start": 21,
+        "end": 47
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 173,
+    "text": "Aisha Rahman: Any word on the permit for work near north cooling tower platform?",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Aisha Rahman",
+        "type": "PER",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "north cooling tower platform",
+        "type": "LOC",
+        "start": 51,
+        "end": 79
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 174,
+    "text": "Olivia: Firmware verified on emergency diesel DG-1 in parking lot north; matches the approved baseline.",
+    "intent": 2,
+    "entities": [
+      {
+        "text": "Olivia",
+        "type": "PER",
+        "start": 0,
+        "end": 6
+      },
+      {
+        "text": "emergency diesel DG-1",
+        "type": "EQUIP",
+        "start": 29,
+        "end": 50
+      },
+      {
+        "text": "parking lot north",
+        "type": "LOC",
+        "start": 54,
+        "end": 71
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 175,
+    "text": "Mason Reed: Tara Singh, inspect boiler feed pump BFP-1 at lube oil room for leaks and report back.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Mason Reed",
+        "type": "PER",
+        "start": 0,
+        "end": 10
+      },
+      {
+        "text": "Tara Singh",
+        "type": "PER",
+        "start": 12,
+        "end": 22
+      },
+      {
+        "text": "boiler feed pump BFP-1",
+        "type": "EQUIP",
+        "start": 32,
+        "end": 54
+      },
+      {
+        "text": "lube oil room",
+        "type": "LOC",
+        "start": 58,
+        "end": 71
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 176,
+    "text": "David Stone: George Miller, check the vibration trend for water treatment skid WT-5 from the condenser deck workstation.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "David Stone",
+        "type": "PER",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "George Miller",
+        "type": "PER",
+        "start": 13,
+        "end": 26
+      },
+      {
+        "text": "water treatment skid WT-5",
+        "type": "EQUIP",
+        "start": 58,
+        "end": 83
+      },
+      {
+        "text": "condenser deck",
+        "type": "LOC",
+        "start": 93,
+        "end": 107
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 177,
+    "text": "Mia: Miguel Santos, please verify the firmware version on PLC cabinet C4 in MCC room.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Mia",
+        "type": "PER",
+        "start": 0,
+        "end": 3
+      },
+      {
+        "text": "Miguel Santos",
+        "type": "PER",
+        "start": 5,
+        "end": 18
+      },
+      {
+        "text": "PLC cabinet C4",
+        "type": "EQUIP",
+        "start": 58,
+        "end": 72
+      },
+      {
+        "text": "MCC room",
+        "type": "LOC",
+        "start": 76,
+        "end": 84
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 178,
+    "text": "Priya Nair: The screen on SCADA console 5 looks dim today.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Priya Nair",
+        "type": "PER",
+        "start": 0,
+        "end": 10
+      },
+      {
+        "text": "SCADA console 5",
+        "type": "EQUIP",
+        "start": 26,
+        "end": 41
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 179,
+    "text": "Elena Krasnova: Reminder: toolbox talk in Unit 3 pump bay at 09:30.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Elena Krasnova",
+        "type": "PER",
+        "start": 0,
+        "end": 14
+      },
+      {
+        "text": "Unit 3 pump bay",
+        "type": "LOC",
+        "start": 42,
+        "end": 57
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 180,
+    "text": "Arjun Mehta: I left a flashlight in safety station; if you find it, let me know.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Arjun Mehta",
+        "type": "PER",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "safety station",
+        "type": "LOC",
+        "start": 36,
+        "end": 50
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 181,
+    "text": "Victor Ivanov: Samir Haddad can you reboot aux heater AH-2 in chemistry sampling booth and watch for alarms?",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Victor Ivanov",
+        "type": "PER",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "Samir Haddad",
+        "type": "PER",
+        "start": 15,
+        "end": 27
+      },
+      {
+        "text": "aux heater AH-2",
+        "type": "EQUIP",
+        "start": 43,
+        "end": 58
+      },
+      {
+        "text": "chemistry sampling booth",
+        "type": "LOC",
+        "start": 62,
+        "end": 86
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 182,
+    "text": "Maria Ortega: Heads-up: panel room 3 will be busy for the vendor walkthrough at 14:00.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Maria Ortega",
+        "type": "PER",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "panel room 3",
+        "type": "LOC",
+        "start": 24,
+        "end": 36
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 183,
+    "text": "Omar Al-Mansouri: I’ll be offline for 20 minutes while in the diesel day-tank area.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Omar Al-Mansouri",
+        "type": "PER",
+        "start": 0,
+        "end": 16
+      },
+      {
+        "text": "diesel day-tank area",
+        "type": "LOC",
+        "start": 62,
+        "end": 82
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 184,
+    "text": "Marco Rossi: Trend check done: cooling pump P-03 vibration is within limits from compressor shed.",
+    "intent": 2,
+    "entities": [
+      {
+        "text": "Marco Rossi",
+        "type": "PER",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "cooling pump P-03",
+        "type": "EQUIP",
+        "start": 31,
+        "end": 48
+      },
+      {
+        "text": "compressor shed",
+        "type": "LOC",
+        "start": 81,
+        "end": 96
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 185,
+    "text": "Ava: The screen on steam turbine T-1 looks dim today.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Ava",
+        "type": "PER",
+        "start": 0,
+        "end": 3
+      },
+      {
+        "text": "steam turbine T-1",
+        "type": "EQUIP",
+        "start": 19,
+        "end": 36
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 186,
+    "text": "Daniel Park: Any word on the permit for work near parking lot north?",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Daniel Park",
+        "type": "PER",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "parking lot north",
+        "type": "LOC",
+        "start": 50,
+        "end": 67
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 187,
+    "text": "Aisha Rahman: David Stone, check the vibration trend for cooling pump P-03 from the break room workstation.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Aisha Rahman",
+        "type": "PER",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "David Stone",
+        "type": "PER",
+        "start": 14,
+        "end": 25
+      },
+      {
+        "text": "cooling pump P-03",
+        "type": "EQUIP",
+        "start": 57,
+        "end": 74
+      },
+      {
+        "text": "break room",
+        "type": "LOC",
+        "start": 84,
+        "end": 94
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 188,
+    "text": "Leila Hassan: Grace Chen, verify the interlock on cooling tower fan F-5 in compressor shed before we energize.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Leila Hassan",
+        "type": "PER",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "Grace Chen",
+        "type": "PER",
+        "start": 14,
+        "end": 24
+      },
+      {
+        "text": "cooling tower fan F-5",
+        "type": "EQUIP",
+        "start": 50,
+        "end": 71
+      },
+      {
+        "text": "compressor shed",
+        "type": "LOC",
+        "start": 75,
+        "end": 90
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 189,
+    "text": "Noah: Sofia, please verify the firmware version on water treatment skid WT-5 in cabling rackway above MCC.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Noah",
+        "type": "PER",
+        "start": 0,
+        "end": 4
+      },
+      {
+        "text": "Sofia",
+        "type": "PER",
+        "start": 6,
+        "end": 11
+      },
+      {
+        "text": "water treatment skid WT-5",
+        "type": "EQUIP",
+        "start": 51,
+        "end": 76
+      },
+      {
+        "text": "cabling rackway above MCC",
+        "type": "LOC",
+        "start": 80,
+        "end": 105
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 190,
+    "text": "Omar Al-Mansouri: Good morning everyone.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Omar Al-Mansouri",
+        "type": "PER",
+        "start": 0,
+        "end": 16
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 191,
+    "text": "Ahmed Saeed: I’ll be offline for 20 minutes while in the operator locker area.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Ahmed Saeed",
+        "type": "PER",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "operator locker area",
+        "type": "LOC",
+        "start": 57,
+        "end": 77
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 192,
+    "text": "Eli Turner: Calibration finished for temperature probe TP-33 in turbine hall A; values match the reference.",
+    "intent": 2,
+    "entities": [
+      {
+        "text": "Eli Turner",
+        "type": "PER",
+        "start": 0,
+        "end": 10
+      },
+      {
+        "text": "temperature probe TP-33",
+        "type": "EQUIP",
+        "start": 37,
+        "end": 60
+      },
+      {
+        "text": "turbine hall A",
+        "type": "LOC",
+        "start": 64,
+        "end": 78
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 193,
+    "text": "Elena Krasnova: Reset completed on boiler feed pump BFP-1 in raw water pump station after the load drop.",
+    "intent": 2,
+    "entities": [
+      {
+        "text": "Elena Krasnova",
+        "type": "PER",
+        "start": 0,
+        "end": 14
+      },
+      {
+        "text": "boiler feed pump BFP-1",
+        "type": "EQUIP",
+        "start": 35,
+        "end": 57
+      },
+      {
+        "text": "raw water pump station",
+        "type": "LOC",
+        "start": 61,
+        "end": 83
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 194,
+    "text": "Grace Chen: George Miller, can you tighten the terminal screws on water treatment skid WT-5 in cooling tower basin (power off first)?",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Grace Chen",
+        "type": "PER",
+        "start": 0,
+        "end": 10
+      },
+      {
+        "text": "George Miller",
+        "type": "PER",
+        "start": 12,
+        "end": 25
+      },
+      {
+        "text": "water treatment skid WT-5",
+        "type": "EQUIP",
+        "start": 66,
+        "end": 91
+      },
+      {
+        "text": "cooling tower basin",
+        "type": "LOC",
+        "start": 95,
+        "end": 114
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 195,
+    "text": "Noah: Reset completed on server node SRV-09 in cooling water intake after the load drop.",
+    "intent": 2,
+    "entities": [
+      {
+        "text": "Noah",
+        "type": "PER",
+        "start": 0,
+        "end": 4
+      },
+      {
+        "text": "server node SRV-09",
+        "type": "EQUIP",
+        "start": 25,
+        "end": 43
+      },
+      {
+        "text": "cooling water intake",
+        "type": "LOC",
+        "start": 47,
+        "end": 67
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 196,
+    "text": "Irene Petrou: I’m heading to boiler house level -1 now; reception is spotty there.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Irene Petrou",
+        "type": "PER",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "boiler house level -1",
+        "type": "LOC",
+        "start": 29,
+        "end": 50
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 197,
+    "text": "Leila Hassan: Storm warning — avoid the generator pit access route if possible.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "Leila Hassan",
+        "type": "PER",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "generator pit",
+        "type": "LOC",
+        "start": 40,
+        "end": 53
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 198,
+    "text": "Fatima Khan: Sofia, please close ash conveyor ACV-7 and confirm pressure stabilizes in north cooling tower platform.",
+    "intent": 1,
+    "entities": [
+      {
+        "text": "Fatima Khan",
+        "type": "PER",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "Sofia",
+        "type": "PER",
+        "start": 13,
+        "end": 18
+      },
+      {
+        "text": "ash conveyor ACV-7",
+        "type": "EQUIP",
+        "start": 33,
+        "end": 51
+      },
+      {
+        "text": "north cooling tower platform",
+        "type": "LOC",
+        "start": 87,
+        "end": 115
+      }
+    ],
+    "set": "test"
+  },
+  {
+    "id": 199,
+    "text": "James Walker: I’m heading to control center annex now; reception is spotty there.",
+    "intent": 0,
+    "entities": [
+      {
+        "text": "James Walker",
+        "type": "PER",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "control center annex",
+        "type": "LOC",
+        "start": 29,
+        "end": 49
+      }
+    ],
+    "set": "test"
+  }
+]
